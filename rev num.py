@@ -1,6 +1,6 @@
-lol = input()
-if int(lol) < 0:
-    print("-"+lol[len(lol):0:-1])
+a = input()
+if a[0] == "-":
+    temp = a[1:]
+    print("-"+str(int(temp[::-1])))
 else:
-    print(lol[::-1])
-
+    print(int(a[::-1]))

@@ -2,7 +2,7 @@ import os
 
 
 def gradingStudents(grade):
-    # Write your code here
+
     for i in range(len(grade)):
         if 5 - grade[i] % 5 < 3 and not grade[i] < 40:
             grade[i] -= grade[i] % 5
